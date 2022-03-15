@@ -1,0 +1,234 @@
+*{
+  margin:auto;
+  text-align:center;
+  box-sizing: border-box;
+  text-decoration: none;
+  /* list-style:none; */
+  
+  
+}
+
+.hero_head{
+ 
+  
+  height: auto;
+  text-align: center;
+  animation-name: ani2;
+  animation-delay: 5s;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  color:white;
+  
+}
+
+@keyframes ani2{
+  100%{transform: translate(-2000px)}
+}
+
+
+.hero_title{
+  animation-name: ani1;
+  animation-delay: 2s;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  color:white;
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+} */}
+
+#mainPart{
+  margin-top:3rem;
+  /* position: fixed; */
+}
+
+@keyframes ani1 {
+          0%{
+            color:antiquewhite;
+            font-size:1rem;
+          }
+          25%{color:red;
+            font-size:1.2rem; 
+          }
+          50%{color:rgb(204, 0, 255);
+            font-size:1.3rem;
+          }
+      75%{color:rgb(0, 255, 64);
+        
+          }
+          100%{color:rgb(208, 241, 58);
+                font-size:1rem;
+          }
+                }
+#hero_section{
+  margin-top:3rem;
+  display: block;
+  width:80%;
+  background-image:linear-gradient(black,gray ,black);
+  height:auto;
+  margin:auto;
+  border:3px solid black;
+  border-top-right-radius: 15%;
+  border-bottom-right-radius: 15%;
+  box-shadow: white 3px 4px 5px;}
+  
+  #hero_image{
+    margin-top:1rem;
+    border-radius: 100%;
+    width:70%;
+    height:auto;
+  }
+
+  #pages{
+    width:80%;
+    height: auto;
+    display: block;
+    margin:auto;
+    padding:1rem;
+    margin-top:1.5rem;
+    background-image: linear-gradient(rgb(0, 124, 128),rgba(0, 255, 157, 0.808),gray);
+    border-top-left-radius: 35%;
+    border-bottom-right-radius:35%;
+    box-shadow:white 1px 2px 1px 2px;
+    
+    
+
+    
+  }
+  a{
+    text-decoration:none;
+    color:blanchedalmond;
+  }
+
+  .bride_head{
+    margin-top:2.5rem;
+    height: auto;
+  text-align: center;
+  animation-name: ani2;
+  animation-delay: 8s;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  color:rgb(207, 50, 50);
+  
+}
+
+@keyframes ani2{
+  100%{transform: translate(-2000px)}
+}
+.hero_containers{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:2.5rem;
+  color:aqua;
+}
+
+.hero_image_container{
+  border-radius:100%;
+  box-shadow:whitesmoke 3px 0px 
+}
+.bride_hero_image{
+  width:40%;
+  height: auto;
+  border-radius:100%
+  
+
+}
+
+#card_hero{
+  position:relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin:auto;
+  margin-top:2rem;
+}
+#main{
+  width:40%;
+  height: auto;
+  display: block;
+  border-radius: 100%;
+  box-shadow:white 0px 5px 0px 4px;
+}
+.card_content{
+  
+}
+
+.card_text{
+  margin-top:0.5rem;
+  color:rgb(179, 113, 28);
+}
+.inv_img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+#sub{
+  width:70%;
+  height: auto;
+  border-radius:100%;
+  box-shadow: red 2px 0px 2px 0px;
+  
+}
+
+#venue{
+  margin-top: 3rem;
+   width:70%;
+  height: auto;
+  border-radius:100%;
+  box-shadow: red 2px 0px 2px 0px;
+  
+}
+.box2 a{color:white;}
+#btn{
+  display:grid;
+  grid-template-columns: repeat(1 , auto);
+  text-align: center;
+  margin-top:30px;
+align-items: center;
+justify-items: center;
+
+padding:0px 3px;
+  border:3px solid black;
+  border-radius: 10px;
+background:white;
+color:black;
+font-size:15px;
+height:50px;
+width:220px;}
+#btn a{color:black;
+text-align:center;}
+#btn:hover{background:black;}
+#btn a:hover{background:black;
+color:red;}
+
+#b{display:grid;
+justify-content: center;}
+#location{height:40px;
+width:40px;
+
+border-radius:5px;}
+
+#end{margin-top:100px;
+width:110% ;
+height:120px;
+margin-bottom: 100px;
+color:black;
+text-align: center;
+background-color:palegreen;
+font-size:20px;
+}
+
+.back{
+  margin-top:2rem;
+  margin-bottom:1rem;
+  display:block;
+  margin:auto;
+  width:150px;
+  height:40px;
+  text-align:center;
+  border-radius:30%;
+  background-image:linear-gradient(blue,white,purple,pink );
+
+}
